@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "end-core-portal",
+	"version": "${version}",
+	"name": "End Core Portal",
+	"description": "Craft an EnderCore, drop it into a Nether portal, and the portal turns black and leads to the End.",
+	"authors": [
+		"Mr_Cracken"
+	],
+	"contact": {
+		"homepage": "https://github.com/MrCracken88/EnderCore",
+		"sources": "https://github.com/MrCracken88/EnderCore",
+		"issues": "https://github.com/MrCracken88/EnderCore/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/end-core-portal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"end.core.portal.EndCorePortal"
+		],
+		"client": [
+			"end.core.portal.client.EndCorePortalClient"
+		]
+	},
+	"mixins": [
+		"end-core-portal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

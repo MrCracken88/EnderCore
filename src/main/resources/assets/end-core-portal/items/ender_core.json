@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "end-core-portal:item/ender_core"
+	}
+}

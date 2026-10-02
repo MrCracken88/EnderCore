@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"EEE",
+		"EDE",
+		"EEE"
+	],
+	"key": {
+		"E": "minecraft:ender_eye",
+		"D": "minecraft:diamond"
+	},
+	"result": {
+		"id": "end-core-portal:ender_core",
+		"count": 1
+	}
+}

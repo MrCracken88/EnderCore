@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"axis=x": { "model": "end-core-portal:block/end_core_portal_ns" },
+		"axis=z": { "model": "end-core-portal:block/end_core_portal_ew" }
+	}
+}

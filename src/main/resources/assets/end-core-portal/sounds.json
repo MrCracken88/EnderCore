@@ -1,0 +1,8 @@
+{
+	"portal_to_end": {
+		"sounds": [ "end-core-portal:portal_to_end" ]
+	},
+	"portal_to_overworld": {
+		"sounds": [ "end-core-portal:portal_to_overworld" ]
+	}
+}
